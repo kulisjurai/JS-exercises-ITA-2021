@@ -2,10 +2,8 @@
 const x = 120;
 const y = 100;
 
-
 //vrsta prekidaca s kojom ce se trigerovati draw(event) funkcija
 let isMouseDown = false;
-
 /* 
    funkcija koja formatira crtacu tablu 
    (iscrtava redove i kolone tabele i dodaje neophodne event atribute)
