@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(114, 51, 90);
+}
+.main-div {
+  height: 80vh;
+  position: relative;
+}
+.clock-face {
+  height: 80vh;
+  z-index: 1;
+}
+
+/*centar*/
+.center {
+  position: absolute;
+  top: 47.5%;
+  left: 47.5%;
+  z-index: 5;
+  background-color: rgb(112, 88, 177);
+  height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+}
+
+/*hands*/
+
+.h-hand {
+  position: absolute;
+  height: 22vh;
+  width: 2vh;
+  background-color: rgb(166, 189, 36);
+  border-radius: 7px;
+  z-index: 2;
+  top: 23.5%;
+  left: 48.75%;
+  transform: rotate(0deg);
+  transform-origin: bottom;
+}
+.m-hand {
+  position: absolute;
+  height: 28vh;
+  width: 2vh;
+  background-color: rgb(35, 194, 70);
+  border-radius: 7px;
+  z-index: 3;
+  top: 15.5%;
+  left: 48.75%;
+  transform: rotate(0deg);
+  transform-origin: bottom;
+}
+.s-hand {
+  position: absolute;
+  height: 29vh;
+  width: 4px;
+  background-color: rgb(38, 182, 192);
+  border-radius: 7px;
+  z-index: 4;
+  top: 13.7%;
+  left: 49.52%;
+  transform: rotate(0deg);
+  transform-origin: bottom;
+}
